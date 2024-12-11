@@ -5,7 +5,7 @@ function Sidenav() {
     <div className='mynav bg-dark text-light'>
         <ul>
             <Link to='/dashboard' ><li>Dashboard</li></Link>
-            <Link to='/reporting' ><li>Reporting</li></Link>
+            <Link to='/earbuds' ><li>Earbuds</li></Link>
             <Link to='/orders' ><li>Orders</li></Link>
             <Link to='/providers' ><li>Providers</li></Link>
             <Link to='/locations' ><li>Locations</li></Link>
