@@ -10,6 +10,7 @@ import Reporting from './Components/Modules/Reporting';
 import Usestate from './Components/Hooks/Usestate';
 import Fetching from './Components/Hooks/Fetching';
 import Earbuds from './Components/Modules/Earbuds';
+import Budsdetails from './Components/Modules/Details/Budsdetails';
 function App() {
   return (
     <div>
@@ -23,6 +24,7 @@ function App() {
           <Route path='/hooks' element={<Usestate />} />
           <Route path='/fetching' element={<Fetching />} />
           <Route path='/earbuds' element={<Earbuds />} />
+          <Route path='/earbuds/:id' element={<Budsdetails />} />
         </Routes>
       </Router>
       
