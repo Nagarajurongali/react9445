@@ -11,6 +11,9 @@ import Usestate from './Components/Hooks/Usestate';
 import Fetching from './Components/Hooks/Fetching';
 import Earbuds from './Components/Modules/Earbuds';
 import Budsdetails from './Components/Modules/Details/Budsdetails';
+import CompA from './Components/Hooks/Props/CompA';
+import One from './Components/Hooks/Context/One';
+import Click from './Components/Hooks/Click';
 function App() {
   return (
     <div>
@@ -25,9 +28,11 @@ function App() {
           <Route path='/fetching' element={<Fetching />} />
           <Route path='/earbuds' element={<Earbuds />} />
           <Route path='/earbuds/:id' element={<Budsdetails />} />
+          <Route path='/props' element={<CompA />} />
+          <Route path='/context' element={<One />} />
         </Routes>
       </Router>
-      
+      <Click />
     </div>
   )
 }
